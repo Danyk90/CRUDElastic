@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CrudElasticApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(CrudElasticApplication.class, args);
     }
 
