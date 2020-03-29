@@ -29,6 +29,7 @@ public class BookService {
     }
 
     public List<Books> getAllBooks(){
+        int s=0;
         return (List<Books>) booksRepository.findAll();
     }
     public Optional<Books> getBook(int id){
